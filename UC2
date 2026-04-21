@@ -1,0 +1,12 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Check if an argument was provided
+        if (args.length > 0) {
+            // Display the name from the first argument
+            System.out.println("Hello " + args[0]);
+        } else {
+            // Fallback if no name is given
+            System.out.println("Hello World");
+        }
+    }
+}

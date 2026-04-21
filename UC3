@@ -1,0 +1,14 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Initialize name with the default value
+        String name = "World";
+
+        // If an argument exists, overwrite the default
+        if (args.length > 0) {
+            name = args[0];
+        }
+
+        // Single output point
+        System.out.println("Hello " + name);
+    }
+}
